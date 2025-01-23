@@ -1,0 +1,42 @@
+body{
+    background-color:beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:10px 0;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+    justify-content: center;
+}
+.item{
+    height:200px;
+    border:5px solid black;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+.item img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+
+}
+.caption{
+    transition: translateX(-50%);
+    font-size: 20px;
+    align-content: center;
+    display: none;
+
+}
+.item:hover img{
+    transform: scale(1.1);
+}
+.item:hover .caption{
+    display: block;
+    align-content: end;
+}
