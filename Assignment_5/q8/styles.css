@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    align-items: center;
+    align-content: center;
+}
+#button1{
+    background-color:pink;
+    border:20px solid black;
+    border-radius: 30px solid black;
+    box-shadow: 5px 5px 20px purple;
+    padding:20px 20px;
+
+}
+#button1:hover{
+    background-color: aqua;
+}
+input{
+    display: block;
+    background-color: white;
+    color: white;
+    border: 5px solid black;
+    padding:10px 10px;
+}
+input:valid{
+    background-color:beige;
+    border:3px solid green
+
+}
+input:invalid{
+    background-color:beige ;
+    border:3px solid red;
+}
