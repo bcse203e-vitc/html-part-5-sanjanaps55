@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height:100vh;
+}
+.menu{
+    display:flex;
+    flex-direction: column;
+}
+.menu button{
+    background-color: green;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    padding:20px 20px;
+    height:50px;
+    width: 100px;
+
+}
+.content a{
+    display:none;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    min-width: 160px;
+    flex-direction: column;
+    text-decoration: none;
+    padding: 20px 20px;
+    gap: 10px;
+    box-shadow: 0px 0px 20px gray;
+}
+.content .section1{
+    
+    font-size: 20px;
+    min-width: 160px;
+
+}
+
+.menu:hover .content a{
+    display: block;
+}
+.section1:hover{
+    background-color:purple;
+    font-weight: bold;
+}
+.section2:hover{
+    background-color: green;
+}
+.section3:hover{
+    background-color: black;
+    color: yellowgreen;
+    border-radius: 20px;
+}
+
+
