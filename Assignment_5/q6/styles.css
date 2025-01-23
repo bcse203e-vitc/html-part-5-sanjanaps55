@@ -1,0 +1,23 @@
+.custom{
+    display: flex;
+    border:20px;
+    border-color: black;
+    height:100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.custom h1{
+    display: flex;
+    animation-name: heading;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition: color 2s ease,font-size 2s ease;
+
+}
+@keyframes heading{
+    20%{color:blue ; font-size: 50px;text-align: left;}
+    30%{color: aqua;font-size: 100px;text-align: center;}
+    40%{color: purple;font-size: 20px;text-align: right;}
+    10%{color: green;font-size: 50px;text-align: end;}
+}
