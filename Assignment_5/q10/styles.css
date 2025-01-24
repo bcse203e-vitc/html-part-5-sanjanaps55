@@ -1,0 +1,35 @@
+body{
+    display:flex;
+    justify-content: center;
+    height:100vh
+
+}
+.loader{
+    height:120px;
+    width:120px;
+    border: 16px solid grey;
+    border-top:16px solid blue;
+    border-radius: 50%;
+    animation: spin 4s linear,fadeout 1s 4s forwards;
+}
+.content{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    visibility: hidden;
+    animation: fadein 1s 4s forwards;
+}
+@keyframes spin{
+    0%{transform: rotate(0deg);}
+    100%{transform:rotate(360deg);}
+}
+@keyframes fadeout{
+    0%{opacity: 1;}
+    100%{opacity: 0;visibility: hidden;}
+}
+@keyframes fadein{
+    0%{opacity: 0; visibility: visible;}
+    100%{opacity:1 ;}
+}
