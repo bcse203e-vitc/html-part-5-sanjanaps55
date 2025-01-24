@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f3c5d8, #ff758c);
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+  }
+  
+  .overlay {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+    border-radius: 10px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+  }
